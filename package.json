@@ -1,0 +1,27 @@
+{
+  "name": "hexo-deployer-dokku",
+  "version": "1.0.0",
+  "description": "A deployer plugin for Hexo to publish the blog on Dokku with nginx:alpine container.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sobesednik/hexo-deployer-dokku.git"
+  },
+  "keywords": [
+    "dokku",
+    "hexo",
+    "blog"
+  ],
+  "author": "Anton <anton@sobesednik.media>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sobesednik/hexo-deployer-dokku/issues"
+  },
+  "homepage": "https://github.com/Sobesednik/hexo-deployer-dokku#readme",
+  "dependencies": {
+    "hexo-fs": "^0.1.6"
+  }
+}
