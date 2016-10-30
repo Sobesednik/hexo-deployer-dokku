@@ -4,7 +4,8 @@
   "description": "A deployer plugin for Hexo to publish the blog on Dokku with nginx:alpine container.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "zoroaster test/spec",
+    "test-watch": "zoroaster test/spec --watch"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,10 @@
   "homepage": "https://github.com/Sobesednik/hexo-deployer-dokku#readme",
   "dependencies": {
     "hexo-fs": "^0.1.6"
+  },
+  "devDependencies": {
+    "rimraf": "^2.5.4",
+    "tmp": "0.0.29",
+    "zoroaster": "^0.1.3"
   }
 }
